@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Reviewer</title>
+    <link rel="stylesheet" href="HomePage.css" />
+  </head>
+  <body onload="checkLogin()">
+    <!-- NavBar -->
+    <div class="topnav">
+      <div class="home"><a class="active" href="HomePage.html">Home</a></div>
+      <div class="rightCorner">
+        <div class="login"></div>
+        <div class="logout">
+          <button id="login-btn" onclick="login()">Log In</button>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal">
+      <div class="modal-data">
+        <p id="para">Please Log In first ..</p>
+      </div>
+    </div>
+    <div class="HomeBody">
+      <div class="admin">
+        <a href="Admin.html">Admin</a>
+      </div>
+      <div class="logoimg">
+        <div class="logo-content">Reviewer.com</div>
+        <div class="logo-line">
+          Choose Your Right Softwares & Add Your Feedbacks
+        </div>
+      </div>
+      <form class="container">
+        <div class="searchBar">
+          <input
+            type="text"
+            class="searchBarTitle"
+            placeholder="Type Category Name / Product Name / Company Name"
+            required
+          />
+        </div>
+        <div class="searchOption">
+          <select name="search" id="OptionButton">
+            <option value="Company">Company</option>
+            <option value="Product">Product</option>
+          </select>
+        </div>
+        <div class="searchdiv">
+          <button class="searchButton" type="submit">Search</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Homepage Script -->
+    <script src="HomePage.js"></script>
+  </body>
+</html>

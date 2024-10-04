@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Reviewer</title>
+    <link rel="stylesheet" href="ResultCompanyPage.css" />
+  </head>
+  <body onload="fetchData()">
+    <!-- NavBar -->
+    <div class="topnav">
+      <div class="home"><a class="active" href="HomePage.html">Home</a></div>
+      <div class="rightCorner">
+        <div class="login"></div>
+        <div class="logout">
+          <button id="login-btn" onclick="login()">Log In</button>
+        </div>
+      </div>
+    </div>
+    <div class="Data">
+      <div class="header">
+        <h1>Companies Result</h1>
+        <div class="RatingSort">
+          <form id="ratingForm">
+            <h2 style="text-align: center">Rating</h2>
+            <div class="input1">
+              <input id="inputValue1" type="checkbox" />&#11088;
+            </div>
+            <div class="input2">
+              <input id="inputValue2" type="checkbox" />&#11088;&#11088;
+            </div>
+            <div class="input3">
+              <input type="checkbox" id="inputValue3" />&#11088;&#11088;&#11088;
+            </div>
+            <div class="input4">
+              <input
+                type="checkbox"
+                id="inputValue4"
+              />&#11088;&#11088;&#11088;&#11088;
+            </div>
+            <div class="input5">
+              <input
+                type="checkbox"
+                id="inputValue5"
+              />&#11088;&#11088;&#11088;&#11088;&#11088;
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="companies">
+        <!-- Inner HTML for Card Elements of Companies -->
+      </div>
+    </div>
+  </body>
+
+  <!-- ResultCompanyPage Script file -->
+  <script src="ResultCompanyPage.js"></script>
+</html>

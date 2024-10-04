@@ -1,0 +1,179 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: azure;
+
+  text-decoration: none;
+}
+
+/* Navbar CSS */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#logout-btn {
+  text-align: center;
+  padding: 12px;
+  font-size: 17px;
+  font-weight: 500;
+  width: 100px;
+  cursor: pointer;
+}
+
+.topnav a.active {
+  background-color: #5e95b6;
+  color: white;
+}
+
+.Data {
+  width: 80%;
+  margin: 35px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100vh;
+}
+
+.content {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.ButtonDiv {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.InfoDiv {
+  margin-top: 50px;
+  height: 600px;
+}
+
+.productDiv {
+  margin-top: 50px;
+  height: 600px;
+}
+
+.formDiv {
+  margin: 0 10% 0 10%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.Firstcol {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.SecondCol {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+input[name="rating"] {
+  width: 200px;
+  height: 30px;
+  font-size: medium;
+}
+
+input[name="title"] {
+  width: 300px;
+  font-size: medium;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+label[for="website"] {
+  margin-right: 144px;
+}
+
+.Thirdcol {
+  margin-top: 30px;
+}
+
+input[name="CompanyCategory"] {
+  width: 300px;
+  font-size: medium;
+}
+
+.FourthCol {
+  margin-top: 30px;
+}
+
+input[name="CommpanyFeatures"] {
+  width: 300px;
+  font-size: medium;
+}
+
+.SubmitBtn {
+  margin-top: 30px;
+}
+
+button[type="submit"] {
+  background-color: #929df5;
+  width: 150px;
+  height: 30px;
+  border: 1px solid #caf7bd;
+  border-radius: 7px;
+  font-size: medium;
+  font-weight: 600;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+textarea[name="CommpanyOverview"] {
+  font-size: large;
+}
+
+textarea[name="CommpanyFeatures"] {
+  font-size: large;
+}
+
+/* login CSS part */
+.rightCorner {
+  display: flex;
+}
+
+.login {
+  color: #f2f2f2;
+  font-size: x-large;
+  font-weight: 700;
+  margin-right: 15px;
+  padding: 10px;
+}
+
+#login-btn {
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  width: 100px;
+  cursor: pointer;
+}

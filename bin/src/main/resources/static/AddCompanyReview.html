@@ -1,0 +1,94 @@
+<html>
+  <head>
+    <title>Reviewer</title>
+    <link rel="stylesheet" href="AddCompanyReview.css" />
+  </head>
+  <body onload="checkLogin()">
+    <!-- NavBar -->
+    <div class="topnav">
+      <div class="home"><a class="active" href="HomePage.html">Home</a></div>
+      <div class="rightCorner">
+        <div class="login"></div>
+        <div class="logout">
+          <button id="login-btn" onclick="login()">Log In</button>
+        </div>
+      </div>
+    </div>
+    <div class="Data">
+      <div class="formDiv">
+        <form id="Review-form">
+          <div class="row">
+            <div class="Firstcol">
+              <label for="website">Title for your Review</label>
+            </div>
+            <div class="SecondCol">
+              <input type="text" name="title" required />
+            </div>
+          </div>
+          <div class="Thirdcol">
+            <label for="Category">Give Rating for Company</label>
+          </div>
+          <div class="SecondCol">
+            <input type="number" min="0" max="5" name="rating" required />
+          </div>
+          <div class="FourthCol">
+            <label for="Overview">What do you like about this Company</label>
+          </div>
+          <div class="SecondCol">
+            <textarea
+              type="text"
+              name="like"
+              rows="4"
+              cols="120"
+              placeholder="Add Some OverView of Company ..."
+              required
+            ></textarea>
+          </div>
+          <div class="Thirdcol">
+            <label for="Features">What do you dislike about this Company</label>
+          </div>
+          <div class="SecondCol">
+            <!-- <input type="text" name="CommpanyFeatures" required /> -->
+            <textarea
+              type="text"
+              name="dislike"
+              rows="4"
+              cols="120"
+              required
+            ></textarea>
+          </div>
+          <div class="Thirdcol">
+            <label for="Features"
+              >Add some key Features you used for your work</label
+            >
+          </div>
+          <div class="SecondCol">
+            <textarea
+              type="text"
+              name="feature"
+              rows="4"
+              cols="120"
+              required
+            ></textarea>
+          </div>
+          <div class="Thirdcol">
+            <label for="Features">Give some feedback to Improve</label>
+          </div>
+          <div class="SecondCol">
+            <textarea
+              type="text"
+              name="feedback"
+              rows="4"
+              cols="120"
+              placeholder="Your Feedback is necessary for us ..."
+              required
+            ></textarea>
+          </div>
+          <div class="SubmitBtn"><button type="submit">Submit</button></div>
+        </form>
+      </div>
+    </div>
+
+    <script src="AddCompanyReview.js"></script>
+  </body>
+</html>

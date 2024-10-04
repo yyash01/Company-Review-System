@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Reviewer</title>
+    <link rel="stylesheet" href="Admin.css" />
+  </head>
+  <body>
+    <div class="Data">
+      <h1 class="heading">User login</h1>
+      <div class="formDiv">
+        <form id="admin-form">
+          <div class="row"><label for="userName">UserName</label></div>
+          <div class="row">
+            <input type="text" name="userName" required onchange="Remove()" />
+          </div>
+          <div class="row"><div class="errorUserName"></div></div>
+          <div class="row"><label for="userPassword">PassWord</label></div>
+          <div class="row">
+            <input
+              type="password"
+              name="password"
+              onchange="Remove()"
+              required
+            />
+          </div>
+          <div class="row"><div class="error"></div></div>
+          <div class="rowButton">
+            <button type="submit">Submit</button>
+            <button id="NewUser" onclick="AddNewUser()">Register User</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="Login.js"></script>
+  </body>
+</html>

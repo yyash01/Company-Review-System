@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>Reviewer</title>
+    <link rel="stylesheet" href="ProductPage.css" />
+  </head>
+  <body onload="fetchProduct()">
+    <!-- NavBar -->
+    <div class="topnav">
+      <div class="home"><a class="active" href="HomePage.html">Home</a></div>
+      <div class="rightCorner">
+        <div class="login"></div>
+        <div class="logout">
+          <button id="login-btn" onclick="login()">Log In</button>
+        </div>
+      </div>
+    </div>
+    <div class="Data">
+      <div class="companyBox">
+        <div class="companyCard">
+          <div class="company__image">
+            <img id="imageTag" src="kapta.svg" alt="CompanyImage" />
+          </div>
+          <div class="companyInfo">
+            <!-- Product Info from Js -->
+          </div>
+        </div>
+        <div class="borderReview">
+          <div class="ReviewOption">
+            Reviews
+            <button id="AddReviewButton" onclick="AddReview()">
+              Add Review
+            </button>
+          </div>
+        </div>
+        <div class="company__review"></div>
+      </div>
+    </div>
+
+    <script src="ProductPage.js"></script>
+  </body>
+</html>

@@ -1,0 +1,225 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: azure;
+
+  text-decoration: none;
+}
+
+.Data {
+  /* width: 80%; */
+  /* margin: 0 auto; */
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: space-evenly; */
+  height: 100%;
+}
+
+.content {
+  /* margin-top: 100px; */
+  width: 15%;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; */
+  border-right: 2px solid #a7a3a3;
+  height: auto;
+}
+
+.ButtonDiv {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 500px;
+  margin-left: 20px;
+}
+
+.InfoDiv {
+  margin-top: 50px;
+  height: 600px;
+}
+
+.productDiv {
+  margin-top: 50px;
+  height: 600px;
+}
+
+.formDiv {
+  margin: 0 10% 0 10%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.Firstcol {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.SecondCol {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+input[name="CompanyName"] {
+  width: 300px;
+  height: 30px;
+  font-size: medium;
+}
+
+input[name="CompanyWebsite"] {
+  width: 300px;
+  font-size: medium;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+label[for="website"] {
+  margin-right: 160px;
+}
+
+.Thirdcol {
+  margin-top: 30px;
+}
+
+input[name="CompanyCategory"] {
+  font-size: medium;
+}
+
+.FourthCol {
+  margin-top: 30px;
+}
+
+input[name="CommpanyFeatures"] {
+  width: 300px;
+  font-size: medium;
+}
+
+.SubmitBtn {
+  margin-top: 30px;
+}
+
+button[type="submit"] {
+  background-color: #929df5;
+  width: 150px;
+  height: 30px;
+  border: 1px solid #caf7bd;
+  border-radius: 7px;
+  font-size: medium;
+  font-weight: 600;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+textarea[name="CommpanyFeatures"] {
+  font-size: large;
+}
+
+#cmp-btn {
+  background-color: #6a7bf8;
+  width: 150px;
+  height: 30px;
+  border: 1px solid #caf7bd;
+  border-radius: 7px;
+  font-size: medium;
+  font-weight: 600;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+#pr-btn {
+  background-color: #6a7bf8;
+  width: 150px;
+  height: 30px;
+  border: 1px solid #caf7bd;
+  border-radius: 7px;
+  font-size: medium;
+  font-weight: 600;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+}
+
+#option_button {
+  border-radius: 5px;
+  height: 30px;
+  cursor: pointer;
+}
+
+h3 {
+  color: chocolate;
+}
+
+.error {
+  margin-left: 480px;
+}
+
+input[name="CommpanyOverview"] {
+  height: 25px;
+  width: 180px;
+}
+
+/* Navbar CSS */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.active {
+  background-color: #5e95b6;
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.main-content {
+  overflow: auto;
+  width: 90%;
+}
+
+.main-content::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.main-content::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}

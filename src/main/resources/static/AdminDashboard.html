@@ -1,0 +1,86 @@
+<html>
+  <head>
+    <title>Reviewer</title>
+    <link rel="stylesheet" href="AdminDashboard.css" />
+  </head>
+  <body onload="fetchData()">
+    <div class="topnav">
+      <div class="home"><a class="active" href="HomePage.html">Home</a></div>
+    </div>
+    <div class="Data">
+      <div class="content">
+        <h2 id="heading">Admin Dashboard</h2>
+        <div class="ButtonDiv">
+          <div class="ProductButton">
+            <button id="pr-btn" onclick="AddProduct()">Add Product</button>
+          </div>
+          <div class="CompanyButton">
+            <button id="cmp-btn" onclick="AddCompany()">Add Company</button>
+          </div>
+          <button id="cmp-btn" onclick="showCompany()">Show Companies</button>
+          <button id="cmp-btn" onclick="showProduct()">Show Products</button>
+        </div>
+        <!-- Company Add form added by JS -->
+      </div>
+      <div class="main-content">
+        <div class="InfoDiv">
+          <div class="formDiv">
+            <form id="Review-form">
+              <div class="row">
+                <div class="Firstcol">
+                  <label for="companyName">Add Company Name</label>
+                  <label for="website">Company Website</label>
+                </div>
+                <div class="SecondCol">
+                  <input
+                    type="text"
+                    name="CompanyName"
+                    required
+                    onchange="remove()"
+                  />
+                  <input type="text" name="CompanyWebsite" required />
+                </div>
+                <div class="companyNameError"></div>
+              </div>
+              <div class="Thirdcol">
+                <label for="Category">Category</label>
+              </div>
+              <div class="SecondCol">
+                <input type="text" name="CompanyCategory" required />
+              </div>
+              <div class="FourthCol">
+                <label for="Overview">Overview</label>
+              </div>
+              <div class="SecondCol">
+                <textarea
+                  type="text"
+                  name="CommpanyOverview"
+                  rows="7"
+                  cols="120"
+                  placeholder="Add Some OverView of Your Company ..."
+                  required
+                ></textarea>
+              </div>
+              <div class="Thirdcol"><label for="Features">Features</label></div>
+              <div class="SecondCol">
+                <!-- <input type="text" name="CommpanyFeatures" required /> -->
+                <textarea
+                  type="text"
+                  name="CommpanyFeatures"
+                  rows="7"
+                  cols="120"
+                  placeholder="Add Some Important Features of Your Company ..."
+                  required
+                ></textarea>
+              </div>
+              <div class="SubmitBtn"><button type="submit">Submit</button></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Innser HTML me jese jese Button click hoga vese ek box add krdenge according to Company or Product -->
+    <script src="AdminDashboard.js"></script>
+  </body>
+</html>

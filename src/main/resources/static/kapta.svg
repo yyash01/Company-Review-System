@@ -1,0 +1,49 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="5.2778in" height="5.2778in" viewBox="0 0 380 380">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        clip-rule: evenodd;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-2);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path class="cls-1" d="M266.9748,35.4962H73.7659a38.3821,38.3821,0,0,0-38.27,38.27V305.84Z"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="90.5796" y1="287.0798" x2="211.8896" y2="54.2598" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3e939d"/>
+      <stop offset="0.8" stop-color="#7fcab8"/>
+      <stop offset="1" stop-color="#80cab8"/>
+    </linearGradient>
+    <clipPath id="clip-path-2">
+      <path class="cls-1" d="M344.5038,344.3541,143.1266,184.1558,35.6507,309.6768a38.4006,38.4006,0,0,0,38.1152,34.827H344.5038Z"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="81.4209" y1="186.1988" x2="298.7309" y2="342.4588" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ef4831"/>
+      <stop offset="0.2" stop-color="#ef4831"/>
+      <stop offset="1" stop-color="#f8a325"/>
+    </linearGradient>
+  </defs>
+  <title>alex44839</title>
+  <g class="cls-2">
+    <rect class="cls-3" x="35.4962" y="35.4962" width="231.4786" height="270.3439"/>
+  </g>
+  <g class="cls-4">
+    <rect class="cls-5" x="35.6507" y="184.1558" width="308.8531" height="160.348"/>
+  </g>
+</svg>

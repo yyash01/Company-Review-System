@@ -1,0 +1,81 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.Data {
+  width: 80%;
+  margin: 10px 270px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  height: 60%;
+}
+
+#admin-form {
+  /* border: 1px solid; */
+  width: 300px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.heading {
+  align-items: center;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-size: x-large;
+}
+
+input[name="userName"] {
+  width: 300px;
+  font-size: medium;
+  height: 30px;
+}
+
+input[name="password"] {
+  width: 300px;
+  font-size: medium;
+  height: 30px;
+}
+
+button[type="submit"] {
+  margin-top: 20px;
+  background-color: #707eec;
+  width: 150px;
+  height: 30px;
+  border: 1px solid #caf7bd;
+  border-radius: 7px;
+  font-size: medium;
+  font-weight: 600;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+h3 {
+  color: chocolate;
+}
+
+#NewUser {
+  margin-top: 20px;
+  background-color: #707eec;
+  width: 150px;
+  height: 30px;
+  border: 1px solid #caf7bd;
+  border-radius: 7px;
+  font-size: medium;
+  font-weight: 600;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.rowButton {
+  display: flex;
+  justify-content: space-between;
+}
